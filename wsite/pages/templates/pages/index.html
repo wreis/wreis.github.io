@@ -9,61 +9,137 @@
     <meta name="keywords" content="Wallace Reis, Wallace, Reis, wreis, Wallace Reis CV, Wallace Reis Curriculum Vitae, Wallace Reis Email, Wallace Reis Blog, Software Engineer, Software Developer, software, developer, devops, perl, linux, unix, databases" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="35vuQ7Txl5uoZb7u3umJ6l46SElFNdL3gNf2uGzPdjg" />
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" media="screen">
+    <link href="{% static 'lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/ionicons/css/ionicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <script src="{% static 'js/respond.min.js' %}"></script>
     <![endif]-->
   </head>
-  <body>
-    <div class="navbar navbar-default navbar-static-top navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">| Wallace Reis |</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a title="Linkedin" href="http://www.linkedin.com/in/wallacereis" target="_blank"><img src="{% static 'images/linkedin.png' %}" width="16px" height="16px"></a></li>
-            <li><a title="GitHub" href="https://github.com/wreis" target="_blank"><img src="{% static 'images/github.png' %}" width="16px" height="16px"></a></li>
-            <li><a title="MetaCPAN" href="http://metacpan.org/author/WREIS" target="_blank"><img src="{% static 'images/metacpan.png' %}" width="16px" height="16px"></a></li>
-            <li><a title="Twitter" href="http://twitter.com/wreis" target="_blank"><img src="{% static 'images/twitter.png' %}" width="16px" height="16px"></a></li>
-            <li><a title="Email" href="mailto:wallace@reis.me"><img src="{% static 'images/email.png' %}" width="16px" height="16px"></a></li>
-            <li><a title="Skype" href="skype:reis.wallace"><img src="{% static 'images/skype.png' %}" width="16px" height="16px"></a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+  <body id="page-top">
+
+  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">wreis</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
+
+  <div id="home" class="intro route bg-image">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">I am Wallace Reis</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Software Engineer, Web Application Developer, Development and operations</span><strong class="text-slider"></strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="about" class="about-mf sect-pt4 route">
     <div class="container">
-      <section id="about">
-        <p class="lead">A.K.A. <em>wreis</em>; Software Engineer; Contributor of open source software projects; Development and operations (DevOps).</p>
-        <div class="page-header"><h2>Specialties</h2></div>
-        <div class="row">
-          <div class="col-sm-4">
-            <ul class="list-group">
-              <li class="list-group-item">Web applications development</li>
-              <li class="list-group-item">Development and operations (DevOps)</li>
-              <li class="list-group-item">Database development</li>
-            </ul>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="box-shadow-full">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-sm-6 col-md-5">
+                    <div class="about-img">
+                      <img src="{% static 'img/me.jpeg' %}" class="img-fluid rounded b-shadow-a" alt="">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-md-7">
+                    <div class="about-info">
+                      <p><span class="title-s">Name: </span> <span>Wallace Reis</span></p>
+                      <p><span class="title-s">Email: </span> <span>wallace@reis.me</span></p>
+                      <p><span class="title-s">Phone: </span> <span>+55 73 99927 1785</span></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-mf">
+                  <p class="title-s">Skill</p>
+                  <span>Python</span> <span class="pull-right">45%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>Perl</span> <span class="pull-right">90%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>JAVASCRIPT</span> <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>HTML</span> <span class="pull-right">85%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                  <span>CSS</span> <span class="pull-right">75%</span>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="about-me pt-4 pt-md-0">
+                  <div class="title-box-2">
+                    <h5 class="title-left">About me</h5>
+                  </div>
+                  <p class="lead">
+		    I am a software engineer with Bachelor's degree in Computer Science. I've already worked on many different kinds of applications, and with main experience in web development.
+                  </p>
+                  <p class="lead">
+		    I am a contributor of open source software projects.
+                  </p>
+                  <p class="lead">
+		     I am a husband, father, musician, tennis player, crossfiter.
+                  </p>
+                  <div class="socials">
+                    <ul>
+                      <li><a href="https://github.com/wreis" target="_blank"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
+                      <li><a href="http://www.linkedin.com/in/wallacereis" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                      <li><a href="http://twitter.com/wreis" target="_blank"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
+                      <li><a href="https://www.instagram.com/wallace.reis.me" target="_blank"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                      <li><a href="skype:reis.wallace"><span class="ico-circle"><i class="ion-social-skype"></i></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      <section id="contact">
-        <div class="page-header"><h1>Contact</h1></div>
-        <p>E: <a href="mailto:1y8v1pf5">wallace at reis . me</a><p>
-        <p>M: +55 73 99927 1785</p>
-      </section>
+      </div>
     </div>
-    <script src="//code.jquery.com/jquery.js"></script>
-    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  </section>
+
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -72,6 +148,17 @@
     ga('create', 'UA-40761416-1', 'reis.me');
     ga('send', 'pageview');
     </script>
-    <script src="//squaresend.com/squaresend.js"></script>
+    <script src="{% static 'lib/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'lib/jquery/jquery-migrate.min.js' %}"></script>
+    <script src="{% static 'lib/popper/popper.min.js' %}"></script>
+    <script src="{% static 'lib/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+    <script src="{% static 'lib/counterup/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'lib/counterup/jquery.counterup.js' %}"></script>
+    <script src="{% static 'lib/owlcarousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'lib/lightbox/js/lightbox.min.js' %}"></script>
+    <script src="{% static 'lib/typed/typed.min.js' %}"></script>
+    <!-- Template Main Javascript File -->
+    <script src="{% static 'js/main.js' %}"></script>
   </body>
 </html>
