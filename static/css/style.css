@@ -1,14 +1,3 @@
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-
-/*======================================
-//--//-->   STYLES GENERALES
-======================================*/
-
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -119,8 +108,6 @@ a:hover {
   vertical-align: middle;
 }
 
-/*--/ Sections /--*/
-
 .sect-4 {
   padding: 4rem 0;
 }
@@ -133,15 +120,11 @@ a:hover {
   margin-top: 4rem;
 }
 
-/*--/ Title s /--*/
-
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.1rem;
 }
-
-/*--/ Title A /--*/
 
 .title-box {
   margin-bottom: 4rem;
@@ -164,8 +147,6 @@ a:hover {
   margin: 0 auto;
 }
 
-/*--/ Title Left /--*/
-
 .title-box-2 {
   margin-bottom: 3rem;
 }
@@ -184,8 +165,6 @@ a:hover {
   bottom: -12px;
 }
 
-/*------/ Box /------*/
-
 .box-pl2 {
   padding-left: 2rem;
 }
@@ -198,8 +177,6 @@ a:hover {
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
-
-/*------/ Socials /------*/
 
 .socials {
   padding: 1.5rem 0;
@@ -227,8 +204,6 @@ a:hover {
   transition: all 500ms ease;
 }
 
-/*------/ Ul resect /------*/
-
 .ul-resect,
 .socials ul,
 .list-ico,
@@ -250,8 +225,6 @@ a:hover {
   margin-right: 10px;
 }
 
-/*------/ Ico Circle /------*/
-
 .ico-circle {
   height: 100px;
   width: 100px;
@@ -263,8 +236,6 @@ a:hover {
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
 }
-
-/*------/ Owl Carousel /------*/
 
 .owl-theme .owl-dots {
   text-align: center;
@@ -295,8 +266,6 @@ a:hover {
   width: 25px;
 }
 
-/*--/ Scrolltop s /--*/
-
 .scrolltop-mf {
   position: relative;
   display: none;
@@ -321,8 +290,6 @@ a:hover {
   border-radius: 50%;
 }
 
-/* Back to top button */
-
 .back-to-top {
   position: fixed;
   display: none;
@@ -344,8 +311,6 @@ a:hover {
   padding-top: 12px;
   color: #fff;
 }
-
-/* Prelaoder */
 
 #preloader {
   position: fixed;
@@ -395,10 +360,6 @@ a:hover {
     transform: rotate(360deg);
   }
 }
-
-/*======================================
-//--//-->   NAVBAR
-======================================*/
 
 .navbar-b {
   transition: all .5s ease-in-out;
@@ -541,8 +502,6 @@ a:hover {
   background-color: #0078ff;
 }
 
-/*--/ Hamburger Navbar /--*/
-
 .navbar-toggler {
   position: relative;
 }
@@ -595,10 +554,6 @@ a:hover {
   transform: rotate(-135deg);
   opacity: 0.9;
 }
-
-/*======================================
-//--//-->   INTRO
-======================================*/
 
 .intro {
   height: 100vh;
@@ -667,10 +622,6 @@ a:hover {
   color: #fff;
 }
 
-/*======================================
-//--//-->   ABOUT
-======================================*/
-
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -699,10 +650,6 @@ a:hover {
   height: .7rem;
   background-color: #0078ff;
 }
-
-/*======================================
-//--//-->   SERVICES
-======================================*/
 
 .service-box {
   background-color: #fff;
@@ -739,10 +686,6 @@ a:hover {
   color: #4e4e4e;
 }
 
-/*======================================
-//--//-->   COUNTER
-======================================*/
-
 .counter-box {
   color: #fff;
   text-align: center;
@@ -763,10 +706,6 @@ a:hover {
   font-size: 2rem;
   margin-bottom: 0;
 }
-
-/*======================================
-//--//-->   PORTFOLIO
-======================================*/
 
 .work-box {
   margin-bottom: 3rem;
@@ -820,10 +759,6 @@ a:hover {
   font-size: 1.2rem;
 }
 
-/*======================================
-//--//-->   TESTIMONIALS
-======================================*/
-
 .testimonials .owl-carousel .owl-item img {
   width: auto;
 }
@@ -861,10 +796,6 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
 }
-
-/*======================================
-//--//-->   BLOG
-======================================*/
 
 .card-blog .card-body {
   position: relative;
@@ -917,10 +848,6 @@ a:hover {
   float: right;
 }
 
-/*======================================
-//--//-->   BLOG-SINGLE
-======================================*/
-
 .post-box,
 .form-comments,
 .box-comments,
@@ -962,8 +889,6 @@ a:hover {
   font-style: italic;
 }
 
-/*------/ Comments /------*/
-
 .box-comments .list-comments li {
   padding-bottom: 40px;
 }
@@ -1000,8 +925,6 @@ a:hover {
 .box-comments .comment-children {
   margin-left: 40px;
 }
-
-/*------/ Sidebar /------*/
 
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
@@ -1053,10 +976,6 @@ a:hover {
   color: #fff;
 }
 
-/*======================================
-//--//-->   CONTACT
-======================================*/
-
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
@@ -1064,10 +983,6 @@ a:hover {
 .contact-mf {
   margin-top: 4rem;
 }
-
-/*======================================
-//--//-->   FOOTER
-======================================*/
 
 footer {
   text-align: center;
@@ -1086,10 +1001,6 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
-
-/*======================================
-//--//-->   CONtaCT FORM
-======================================*/
 
 #sendmessage {
   color: #0078ff;
@@ -1124,10 +1035,6 @@ footer .credits a {
   font-weight: 400;
   font-size: 13px;
 }
-
-/*======================================
-//--//-->   BUTTON
-======================================*/
 
 .button {
   display: inline-block;
